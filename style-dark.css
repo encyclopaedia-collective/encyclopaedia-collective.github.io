@@ -1,0 +1,36 @@
+/*
+ * The dark style when user prefers that in their browser/OS.
+ */
+
+ body {
+	color: #0099FF;
+	background-color: #111;
+}
+.inverted {
+	color: white;
+	background-color: #003cc8;
+}
+
+a {
+	color: #00a2ff;
+}
+a:visited {
+	color: #007bff;
+}
+a:active {
+	color: #003cff;
+}
+
+.inverted a {
+	color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.onecolumn {
+	float: left;
+	width: 45%;
+	padding: 5%;
+}
